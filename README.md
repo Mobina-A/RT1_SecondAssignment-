@@ -8,11 +8,11 @@ The main part of the assignment involves creating three nodes, which I have name
 
 The tasks covered in each node are as follows:
 
-*node_a: A node that implements an action client enabling users to set or cancel targets (x, y) or cancel it. The node uses the feedback/status of the action server to determine when the target has been reached. Additionally, the node publishes the robot position and velocity as a custom message (x, y, vel_x, vel_z), relying on the values published on the topic /odom.
+* node_a: A node that implements an action client enabling users to set or cancel targets (x, y) or cancel it. The node uses the feedback/status of the action server to determine when the target has been reached. Additionally, the node publishes the robot position and velocity as a custom message (x, y, vel_x, vel_z), relying on the values published on the topic /odom.
 
-*node_b: When called, the service node returns the coordinates of the last target sent by the user.
+* node_b: When called, the service node returns the coordinates of the last target sent by the user.
 
-*node_c: This service node subscribes to the robot’s position and velocity (using the custom message) and implements a server to retrieve the distance of the robot from the target and the robot’s average speed.
+* node_c: This service node subscribes to the robot’s position and velocity (using the custom message) and implements a server to retrieve the distance of the robot from the target and the robot’s average speed.
 
 Installing and running
 ----------------------

@@ -35,3 +35,7 @@ In this state we can run the code thanks to the launch file you can simply run a
 ```bash
 $ roslaunch assignment_2_2023 assignment1.launch
 ```
+
+Flowchart of node_a
+----------------------
+![Tux, the Linux mascot](/FlowChart.jpg)
